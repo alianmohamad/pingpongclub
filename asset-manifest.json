@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pingpongclub/static/css/main.c08a9c60.css",
+    "main.js": "/pingpongclub/static/js/main.7b153ebe.js",
+    "static/js/453.7c711e0f.chunk.js": "/pingpongclub/static/js/453.7c711e0f.chunk.js",
+    "index.html": "/pingpongclub/index.html",
+    "main.c08a9c60.css.map": "/pingpongclub/static/css/main.c08a9c60.css.map",
+    "main.7b153ebe.js.map": "/pingpongclub/static/js/main.7b153ebe.js.map",
+    "453.7c711e0f.chunk.js.map": "/pingpongclub/static/js/453.7c711e0f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c08a9c60.css",
+    "static/js/main.7b153ebe.js"
+  ]
+}
