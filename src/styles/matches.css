@@ -1,0 +1,9 @@
+.table {
+    border: 2px solid #012142;
+    border-radius: 10px;
+  }
+  
+  .table thead {
+    background: #012142;
+    color: white;
+  }

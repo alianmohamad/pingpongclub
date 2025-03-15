@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Pacifico&family=Roboto:wght@300;400&display=swap');
+        
+body {
+  background-color: #eeeeee;
+  color: #012142;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.handwriting {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5rem;
+  color: #FF9E1B;
+  margin-top: 30px;
+}
+
+.bento-section {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+  margin: 60px auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn-primary:hover {
+  background-color: #F28711;
+  border-color: #F28711;
+}
+
+.bento-section {
+    background: #ffffff;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+/* Fix for ensuring sections are centered */
+.container.bento-section {
+  max-width: 1200px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Force fix for navbar centering */
+.navbar {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Game table centering fix */
+.game-table {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Fix for mobile responsiveness */
+@media (max-width: 768px) {
+  .bento-section {
+    padding: 20px;
+    margin: 30px auto;
+    width: 95%;
+  }
+  
+  .about-text {
+    margin-bottom: 20px;
+  }
+  
+  .game-table {
+    width: 95%;
+  }
+}

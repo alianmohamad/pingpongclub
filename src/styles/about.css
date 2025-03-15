@@ -1,0 +1,39 @@
+.about-text {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .carousel {
+    flex: 1;
+  }
+  
+  .carousel-inner img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    width: 100%;
+  }
+  
+  /* Fix alignment on mobile */
+  @media (max-width: 768px) {
+    .about-text {
+      padding-right: 0;
+      margin-bottom: 30px;
+    }
+    
+    #about {
+      flex-direction: column;
+    }
+    
+    .w-md-50 {
+      width: 100% !important;
+    }
+  }
+  
+  /* Apply proper sizing to section */
+  #about.container {
+    padding: 40px;
+    margin: 60px auto;
+    max-width: 1200px;
+    width: 90%;
+  }
