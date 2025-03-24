@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pingpongclub/static/css/main.c663d9e9.css",
-    "main.js": "/pingpongclub/static/js/main.d9925769.js",
+    "main.css": "/pingpongclub/static/css/main.7576e080.css",
+    "main.js": "/pingpongclub/static/js/main.a6f90cd1.js",
     "static/media/img3.jpg": "/pingpongclub/static/media/img3.7a481a36084478dcf2ab.jpg",
     "static/media/img2.jpg": "/pingpongclub/static/media/img2.40d92c3812551d706241.jpg",
     "static/media/fa-solid-900.ttf": "/pingpongclub/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
@@ -14,11 +14,11 @@
     "static/media/fa-v4compatibility.ttf": "/pingpongclub/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/pingpongclub/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/pingpongclub/index.html",
-    "main.c663d9e9.css.map": "/pingpongclub/static/css/main.c663d9e9.css.map",
-    "main.d9925769.js.map": "/pingpongclub/static/js/main.d9925769.js.map"
+    "main.7576e080.css.map": "/pingpongclub/static/css/main.7576e080.css.map",
+    "main.a6f90cd1.js.map": "/pingpongclub/static/js/main.a6f90cd1.js.map"
   },
   "entrypoints": [
-    "static/css/main.c663d9e9.css",
-    "static/js/main.d9925769.js"
+    "static/css/main.7576e080.css",
+    "static/js/main.a6f90cd1.js"
   ]
 }
