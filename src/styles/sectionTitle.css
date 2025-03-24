@@ -1,0 +1,10 @@
+.section-title {
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .section-title i {
+    margin-right: 10px;
+  }

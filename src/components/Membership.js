@@ -1,5 +1,12 @@
+/* 
+  This component contains the membership application form.
+  It allows visitors to sign up for club membership.
+  The form includes validation and provides feedback after submission.
+  Users can select different types of memberships (Basic, Premium, Student).
+*/
 import React, { useState } from "react";
 import "../styles/membership.css";
+import SectionTitle from "./SectionTitle";
 
 const Membership = () => {
   const [formData, setFormData] = useState({
@@ -41,9 +48,10 @@ const Membership = () => {
 
   return (
     <section id="membership" className="container bento-section">
-      <h2 style={{ fontFamily: "'Oswald', sans-serif", fontWeight: 700 }}>
-        <i className="fas fa-user-plus"></i> Join Our Club
-      </h2>
+      <SectionTitle 
+        title="Join Our Club" 
+        icon="fas fa-user-plus" 
+      />
       <p style={{ fontFamily: "'Roboto', sans-serif", fontWeight: 400 }}>
         Become a part of Rapid PingPong Club and enjoy exclusive access to training sessions, 
         tournaments, and special events. Fill out the form below to sign up.

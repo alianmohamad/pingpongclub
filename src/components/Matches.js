@@ -1,12 +1,20 @@
+/* 
+  This component displays upcoming matches at the PingPong Club.
+  It shows a schedule with dates, players, and locations in a table format.
+  Members and visitors can see when and where matches will be held.
+  The table is responsive and adjusts for different screen sizes.
+*/
 import React from "react";
 import "../styles/matches.css";
+import SectionTitle from "./SectionTitle";
 
 const Matches = () => {
   return (
     <section id="matches" className="container bento-section">
-      <h2 style={{ fontFamily: "'Oswald', sans-serif", fontWeight: 700 }}>
-        <i className="fas fa-calendar-alt"></i> Upcoming Matches
-      </h2>
+      <SectionTitle 
+        title="Upcoming Matches" 
+        icon="fas fa-calendar-alt" 
+      />
       <table className="table table-bordered">
         <thead>
           <tr>

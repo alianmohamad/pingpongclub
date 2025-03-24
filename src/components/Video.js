@@ -1,12 +1,20 @@
+/* 
+  This component displays a video section on the website.
+  It embeds a YouTube video showing the club in action.
+  Visitors can watch matches and training sessions to get a feel for the club.
+  The responsive design ensures the video looks good on all screen sizes.
+*/
 import React from "react";
 import "../styles/video.css";
+import SectionTitle from "./SectionTitle";
 
 const Video = () => {
   return (
     <section id="video" className="container bento-section text-center">
-      <h2 style={{ fontFamily: "'Oswald', sans-serif", fontWeight: 700, color: "#012142" }}>
-        <i className="fas fa-play-circle" style={{ color: "#FF9E1B" }}></i> Watch Our Club in Action
-      </h2>
+      <SectionTitle 
+        title="Watch Our Club in Action" 
+        icon="fas fa-play-circle" 
+      />
       <p style={{ fontFamily: "'Roboto', sans-serif", fontWeight: 400 }}>
         Experience the energy and excitement of Rapid PingPong Club in action. 
         Watch our latest matches, training sessions, and club highlights.

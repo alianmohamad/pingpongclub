@@ -111,10 +111,26 @@
 }
 
 @media (max-width: 768px) {
-  .search-container input {
-    display: none;
+  .search-container {
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    width: auto;
+    margin-left: auto;
   }
-  
+
+  .search-container input {
+    display: inline-block;
+    width: 80px;
+    font-size: 0.9rem;
+    padding: 4px 8px;
+  }
+
+  .search-container .search-btn {
+    padding: 4px 10px;
+    font-size: 0.9rem;
+  }
+
   .navbar {
     width: 95%;
     padding: 10px;
@@ -126,8 +142,3 @@
   }
 }
 
-@media (max-width: 992px) {
-  .search-container input {
-    display: none;
-  }
-}

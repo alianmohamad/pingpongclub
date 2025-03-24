@@ -1,8 +1,16 @@
+/* 
+  This component shows information about the PingPong Club.
+  It has text describing the club and a carousel of images.
+  The carousel uses Bootstrap and shows photos of the club and its activities.
+  This component helps potential members understand what the club is about.
+*/
+
 import React, { useEffect } from "react";
 import "../styles/about.css";
 import img2 from "../assets/img2.jpg";
 import img3 from "../assets/img3.jpg";
 import { Carousel } from "bootstrap";
+import SectionTitle from "./SectionTitle";
 
 const About = () => {
   useEffect(() => {
@@ -19,9 +27,10 @@ const About = () => {
   return (
     <section id="about" className="container bento-section d-flex flex-column flex-md-row align-items-center">
       <div className="about-text w-100 w-md-50 pe-md-3">
-        <h2 style={{ fontFamily: "'Oswald', sans-serif", fontWeight: 700 }}>
-          <i className="fas fa-table-tennis-paddle-ball"></i> About Our Club
-        </h2>
+        <SectionTitle 
+          title="About Our Club" 
+          icon="fas fa-table-tennis-paddle-ball" 
+        />
         <p style={{ fontFamily: "'Roboto', sans-serif", fontWeight: 400 }}>
           Rapid PingPong Club is the ultimate destination for table tennis 
           enthusiasts of all skill levels. Whether you're a seasoned pro or 

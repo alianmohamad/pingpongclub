@@ -1,3 +1,9 @@
+/* 
+  This component creates the navigation bar for the PingPong Club website.
+  It includes the club logo, search functionality, and navigation links.
+  The search feature allows users to find content throughout the site.
+  The navbar is responsive and collapses into a hamburger menu on mobile.
+*/
 import React, { useState, useEffect } from "react";
 import "../styles/navbar.css";
 import logo from "../assets/logo.png";
@@ -7,7 +13,7 @@ const Navbar = () => {
   const [searchResults, setSearchResults] = useState([]);
   const [showResults, setShowResults] = useState(false);
   
-  // Mock data for search functionality
+  // Data for search functionality
   const siteContent = [
     { 
       title: "About Our Club", 
